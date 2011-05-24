@@ -6,8 +6,8 @@
 #define MULTILINE_COMMENT 3
 #define LINE_COMMENT 4
 
-int state; // the curren state we are in
-int c; // the current character we have
+int state;
+int c;
 
 void handle_default_state();
 void handle_single_quote_state();
